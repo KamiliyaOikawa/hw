@@ -1,0 +1,15 @@
+{% extends 'manga/origin.html' %}
+{% load static %}
+
+{% block title %}Manga{% endblock %}
+
+{% block content %}
+    <div>
+        {% for i in manga %}
+            <div>
+                <h2 class="manga title">{{ i.title }}</h2>
+                <img class="manga image" src="{{ i.image }}" alt="">
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
