@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6da116ff-40e9-4b2c-9cdf-f4e77130cfb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/manga/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manga/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/manga/manga_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/manga/manga_parser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/manga/origin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration_login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/manga/parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -153,7 +154,10 @@
       <workItem from="1645137814603" duration="9102000" />
       <workItem from="1645371670650" duration="1821000" />
       <workItem from="1645547131787" duration="10263000" />
-      <workItem from="1645718678991" duration="14760000" />
+      <workItem from="1645718678991" duration="16668000" />
+      <workItem from="1646060261565" duration="592000" />
+      <workItem from="1646136927923" duration="3801000" />
+      <workItem from="1646210392677" duration="13304000" />
     </task>
     <servers />
   </component>
