@@ -58,7 +58,7 @@ class LoginForm(AuthenticationForm):
             attrs={
                 "class": "form-control",
                 "placeholder": "type phone number",
-                "id": "phone_number"
+                "id": "pho-ne_number"
             }
         )
     )

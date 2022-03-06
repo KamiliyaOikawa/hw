@@ -44,17 +44,20 @@
             <p class="card-text body__text">{{ book.created_date }}</p>
             <p class="card-text body__text">{{ book.updated_date }}</p>
             <p class="card-text body__text">Author:{{ author.name }}</p>
-            <p class="card-text body__text">Date birth:{{author.date_birth}}</p>
-            <p class="card-text body__text">Story:{{author.story_author}}</p>
-            <p class="card-text body__text">Interesting facts:{{author.interesting_facts}}</p>
+            <p class="card-text body__text">Date birth:{{ author.date_birth }}</p>
+            <p class="card-text body__text">Story:{{ author.story_author }}</p>
+            <p class="card-text body__text">Interesting facts:{{ author.interesting_facts }}</p>
+            <p class="card-text body__text">Duration:{{ book.duration }}</p>
+            <p class="card-text body__text">Review:{{ review.text }}</p>
+
         </div>
         <div class="card-body">
             <h2>Comments:</h2>
             <ul>
                 {% for i in review %}
-                <li>
-                    <p>{{ i.text }}</p>
-                </li>
+                    <li>
+                        <p>{{ i.text }}</p>
+                    </li>
                 {% endfor %}
             </ul>
         </div>

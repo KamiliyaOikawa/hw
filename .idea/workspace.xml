@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6da116ff-40e9-4b2c-9cdf-f4e77130cfb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration_login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/manga/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,67 @@
       <recent name="C:\Users\User\PycharmProjects\hw\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.hw">
+  <component name="RunManager" selected="Django tests.Test: book.tests.BookTestModels.test_update_model">
+    <configuration name="Test: book.tests.BookTestModels.test_model_create_fail" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="hw" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="book.tests.BookTestModels.test_model_create_fail" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: book.tests.BookTestModels.test_model_create_success" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="hw" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="book.tests.BookTestModels.test_model_create_success" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: book.tests.BookTestModels.test_update_model" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="hw" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="book.tests.BookTestModels.test_update_model" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="book_list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hw/templates/book_list.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -127,6 +185,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: book.tests.BookTestModels.test_update_model" />
+        <item itemvalue="Django tests.Test: book.tests.BookTestModels.test_model_create_fail" />
+        <item itemvalue="Django tests.Test: book.tests.BookTestModels.test_model_create_success" />
         <item itemvalue="JavaScript Debug.book_list.html" />
       </list>
     </recent_temporary>
@@ -157,7 +218,11 @@
       <workItem from="1645718678991" duration="16668000" />
       <workItem from="1646060261565" duration="592000" />
       <workItem from="1646136927923" duration="3801000" />
-      <workItem from="1646210392677" duration="13304000" />
+      <workItem from="1646210392677" duration="14084000" />
+      <workItem from="1646384098493" duration="5311000" />
+      <workItem from="1646468986201" duration="298000" />
+      <workItem from="1646471371797" duration="483000" />
+      <workItem from="1646472286918" duration="15064000" />
     </task>
     <servers />
   </component>
@@ -178,5 +243,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hw$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1645024635927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/hw$Test__book_tests_BookTestModels_test_model_create_fail.coverage" NAME="Test: book.tests.BookTestModels.test_model_create_fail Coverage Results" MODIFIED="1646570339760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/hw$Test__book_tests_BookTestModels_test_model_create_success.coverage" NAME="Test: book.tests.BookTestModels.test_model_create_success Coverage Results" MODIFIED="1646388576432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/hw$Test__book_tests_BookTestModels_test_update_model.coverage" NAME="Test: book.tests.BookTestModels.test_update_model Coverage Results" MODIFIED="1646570383849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
